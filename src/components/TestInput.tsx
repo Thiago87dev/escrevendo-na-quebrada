@@ -9,7 +9,7 @@ interface TestInputProps {
 const TestInput = ({ labels, title, inputName }: TestInputProps) => {
   return (
     <div>
-      <form className="flex flex-col gap-2 border border-orange-400 p-4">
+      <form className="flex w-[768px]  flex-col gap-2 border bg-white text-black p-4">
         <h2 className="text-2xl font-bold">{title}</h2>
 
         {labels.map((item) => (
