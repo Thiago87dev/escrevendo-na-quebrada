@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
-@theme {
-  --color-midnight: #121063
+@theme inline {
+  --color-roxo: #9b2693;
+  --color-laranja-claro: #ff8e17;
+  --color-laranja-escuro: #e8731d;
+  --color-ciano: #379ab4;
+  --color-azul-escuro: #145262;
+  --color-preto1: #292929;
+
+  --font-inter: var(--font-inter);
+
+  --breakpoint-lg: 1300px;
 }

@@ -1,10 +1,13 @@
+import React from 'react'
 
-export default function Home() {
+const NossosResultados = () => {
   return (
     <div className="flex flex-col gap-4 w-screen h-screen bg-midnight text-white items-center">
       <div className="w-full max-w-[1440px] text-black">
-        Home
+        Nossos resultados
       </div>
     </div>
-  );
+  )
 }
+
+export default NossosResultados
