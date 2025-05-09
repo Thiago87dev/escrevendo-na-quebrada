@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
-  variable: "--font-inter",
   subsets: ["latin"],
   weight: ["200", "400", "500", "600", "700"],
 });
@@ -21,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+    <html lang="en" className={`${inter.className} antialiased`}>
+      <body>
         <Navbar />
         {children}
         <Footer />
