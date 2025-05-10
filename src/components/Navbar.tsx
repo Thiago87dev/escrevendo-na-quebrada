@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <h3 className="text-[#4E164A] pt-2.5 font-bold  font-inter text-lg w-[132px] h-[44px]">
+            <h3 className="text-[#4E164A] pt-2.5 font-bold text-lg w-[132px] h-[44px]">
               Escrevendo na Quebrada
             </h3>
           </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
           <div className="flex justify-end pr-6">
             <IoMdClose size={30} onClick={handleToggleMenu} />
           </div>
-          <ul className="flex flex-col gap-8 mt-8 ml-10 text-xl font-semibold">
+          <ul className="flex flex-col gap-8 mt-8 ml-10 font-semibold">
             {menuItens.map((item) => (
               <li
                 className="flex flex-col gap-5"
@@ -115,11 +115,11 @@ const Navbar = () => {
               >
                 <Link
                   href={item.path}
-                  className={`${
+                  className={`px-4 py-2 ${
                     activeMenuItem === item.label
-                      ? "bg-roxo text-white rounded-full px-2 py-1"
+                      ? "bg-roxo text-white rounded-full "
                       : "text-black"
-                  } hover:bg-roxo hover:text-white hover:rounded-full px-2 py-1`}
+                  } hover:bg-roxo hover:text-white hover:rounded-full`}
                 >
                   {item.label}
                 </Link>
