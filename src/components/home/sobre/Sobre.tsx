@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Sobre = () => {
   return (
@@ -8,7 +9,7 @@ const Sobre = () => {
         <h1 className="font-bold text-4xl lg:text-6xl">
           Escrevendo novos caminhos através da educação
         </h1>
-        <div className="text-lg md:text-xl lg:text-2xl/6">
+        <div className="text-lg md:max-lg:text-xl lg:text-2xl/7">
           <p>
             O Escrevendo na Quebrada é mais do que um <b>cursinho gratuito</b> —
             é um projeto transformador voltado para jovens que querem mandar bem
@@ -22,9 +23,11 @@ const Sobre = () => {
             que acredita no seu potencial e caminha ao seu lado
           </p>
         </div>
-        <Button className="w-full md:max-lg:w-lg lg:w-full self-center text-lg shadow-md/80 shadow-preto1 py-3 mt-3">
-          Saiba mais sobre o projeto
-        </Button>
+        <Link href="/sobre" className="md:max-lg:self-center">
+          <Button className="w-full md:max-lg:w-lg lg:w-full text-md md:max-lg:text-lg lg:text-xl shadow-md/80 shadow-preto1 py-3 mt-3">
+            Saiba mais sobre o projeto
+          </Button>
+        </Link>
       </div>
       <div>
         <Image
