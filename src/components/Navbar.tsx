@@ -44,7 +44,7 @@ const Navbar = () => {
     { label: "CONTATO", path: "/contato" },
   ];
   return (
-    <nav className="bg-white px-6 relative z-30">
+    <nav className="px-6 relative z-30">
       <div className="flex gap-5 items-center justify-between mx-auto w-full max-w-[1440px] py-5">
         <div className="flex gap-2">
           <div>
