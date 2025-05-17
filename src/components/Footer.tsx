@@ -26,7 +26,7 @@ const socialMediaIcons = [
 
 const Footer = () => {
   return (
-    <footer className="w-full h-40 border-t-2 border-preto1/30 px-6">
+    <footer className="w-full h-40 border-t-2 border-preto1/30 px-6 z-50">
       <div className="flex flex-col sm:flex-row gap-8 sm:gap-4 justify-between items-center max-w-[1440px] h-full m-auto p-4 md:p-0">
         <div className="flex items-center">
           <Image
