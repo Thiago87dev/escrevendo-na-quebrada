@@ -1,4 +1,5 @@
 import ComoFunciona from "@/components/home/como_funciona/ComoFunciona";
+import Resultados from "@/components/home/resultados/Resultados";
 import SejaAluno from "@/components/home/seja_aluno/SejaAluno";
 import SejaVoluntario from "@/components/home/seja_voluntario/SejaVoluntario";
 import Sobre from "@/components/home/sobre/Sobre";
@@ -11,6 +12,7 @@ export default function Home() {
         <ComoFunciona />
         <SejaAluno/>
         <SejaVoluntario />
+        <Resultados/>
       </div>
     </main>
   );
