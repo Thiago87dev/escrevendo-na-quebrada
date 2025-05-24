@@ -2,7 +2,7 @@ import CardNumber from "./CardNumber";
 
 const Resultados = () => {
   return (
-    <section >
+    <section>
       <div className="flex flex-col gap-12 mt-10 mb-[8rem] sm:my-[10rem] px-6">
         <div className="flex flex-col gap-12">
           <h2 className="text-[2.5rem] font-bold">Nossos Resultados</h2>
