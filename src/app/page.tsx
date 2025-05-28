@@ -1,5 +1,6 @@
 import ComoFunciona from "@/components/home/como_funciona/ComoFunciona";
 import Contato from "@/components/home/contato/Contato";
+import Faq from "@/components/home/faq/Faq";
 import Resultados from "@/components/home/resultados/Resultados";
 import SejaAluno from "@/components/home/seja_aluno/SejaAluno";
 import SejaVoluntario from "@/components/home/seja_voluntario/SejaVoluntario";
@@ -15,6 +16,7 @@ export default function Home() {
         <SejaVoluntario />
         <Resultados />
         <Contato />
+        <Faq/>
       </div>
     </main>
   );
