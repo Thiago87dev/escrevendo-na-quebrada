@@ -54,7 +54,7 @@ export const listAccordion = [
     id: 3,
     title: "Como o EQ se mantém?",
     text: [
-      "A EQ se mantém através do trabalho voluntário de nossa equipe e de doações de pessoas e organizações que acreditam na nossa causa. Somos transparentes com nossas contas e você pode saber mais sobre como nos ajudar na seção de 'Apoio'.",
+      "O EQ se mantém através do trabalho voluntário de nossa equipe e de doações de pessoas e organizações que acreditam na nossa causa. Somos transparentes com nossas contas e você pode saber mais sobre como nos ajudar na seção de 'Apoio'.",
     ],
   },
   {
