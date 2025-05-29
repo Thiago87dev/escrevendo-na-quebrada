@@ -8,15 +8,15 @@ const CardNumber = () => {
         <div className="flex flex-col lg:flex-row gap-10 md:gap-20">
           <div className="flex flex-col items-center">
             <h3 className="text-5xl sm:text-[5.6875rem] font-bold">
-              <ConterNumber to={128} />
+              <ConterNumber to={840} />
             </h3>
-            <p className="text-center text-sm sm:text-[1.125rem]">Texto de exemplo</p>
+            <p className="text-center text-sm sm:text-[1.125rem]">Média das redações</p>
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-5xl sm:text-[5.6875rem] font-bold">
-              <ConterNumber to={12} />+
+              <ConterNumber to={2} />K+
             </h3>
-            <p className="text-center text-sm sm:text-[1.125rem]">exemplo</p>
+            <p className="text-center text-sm sm:text-[1.125rem]">Estudantes impactados</p>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-10 md:gap-20">

@@ -9,6 +9,15 @@ const Sobre = () => {
         <h1 className="font-bold text-4xl lg:text-6xl">
           Escrevendo novos caminhos através da educação
         </h1>
+        <div className="lg:hidden flex mx-auto">
+        <Image
+          alt=""
+          src="/img/home/sobre/imagem-secao-sobre.png"
+          width={650}
+          height={650}
+          className="bg-roxo/10 rounded-4xl"
+        />
+      </div>
         <div className="text-lg md:max-lg:text-xl lg:text-2xl/7">
           <p>
             O Escrevendo na Quebrada é mais do que um <b>cursinho gratuito</b> —
@@ -29,7 +38,7 @@ const Sobre = () => {
           </Button>
         </Link>
       </div>
-      <div>
+      <div className="hidden lg:flex">
         <Image
           alt=""
           src="/img/home/sobre/imagem-secao-sobre.png"
