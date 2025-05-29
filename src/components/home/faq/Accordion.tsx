@@ -44,6 +44,15 @@ const Accordion = () => {
                 <p className="py-2" key={index}>{item}</p>
               ))}
             </div>
+            {item.list && (
+              <ul>
+                {item.list.map((item, index) => (
+                  <li className="list-disc" key={index}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       ))}
