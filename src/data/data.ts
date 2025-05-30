@@ -1,82 +1,69 @@
+export const cardComoFuncionaData = [
+  {
+    id: 1,
+    img: "/img/home/como_funciona/image1.png",
+    alt: "Gorato no computador",
+    title: "Cadastro",
+    text: "Verifique as regras e informações nos editais e inscreva-se!",
+  },
+  {
+    id: 2,
+    img: "/img/home/como_funciona/image2.png",
+    alt: "Equipe unida",
+    title: "Acolhimento",
+    text: "Participe da recepção e conheça mais sobre o EQ e sua equipe!",
+  },
+  {
+    id: 3,
+    img: "/img/home/como_funciona/image3.png",
+    alt: "Garoto escrevendo",
+    title: "Formação",
+    text: "Tenha aulas semanais de redação e escrita regularmente!",
+  },
+  {
+    id: 4,
+    img: "/img/home/como_funciona/image4.png",
+    alt: "Dois alunos se ajudando",
+    title: "Preparação Final",
+    text: "Tenha acompanhamento durante e após o período de vestibulares!",
+  },
+];
+
 export const listAccordion = [
   {
     id: 1,
-    title: "O que é o Escrevendo na Quebrada?",
+    title: "O que exatamente é o Escrevendo na Quebrada?",
     text: [
-      "O Escrevendo na Quebrada é um cursinho popular de redação com impacto social, que nasceu para enfrentar a desigualdade de acesso ao Ensino Superior.",
-      "Atuamos com jovens das periferias oferecendo educação gratuita e de qualidade, com foco na redação do ENEM, na formação cultural e no fortalecimento psicossocial. Nossas aulas são baseadas na realidade e vivência dos alunos, conectamos saberes, afetos e humanidade. Aqui, cada estudante é protagonista da própria história.",
+      "Lorem ipsum dolor sit amet. Non impedit officia aut quasi vitae et autem neque et sapiente consequatur in totam incidunt et enim enim eos quia provident! Sit itaque ipsam et sint dolore 33 obcaecati.",
     ],
   },
   {
     id: 2,
     title: "Como o projeto funciona na prática?",
     text: [
-      "As aulas são gratuitas e acontecem tanto presencialmente quanto online, sempre valorizando as vivências dos estudantes periféricos. Também realizamos:",
-    ],
-    list: [
-      "Mentorias individuais;",
-      "Atividades culturais;",
-      "Acompanhamento psicopedagógico e orientação de carreira. Nosso diferencial é um modelo pedagógico que acredita na potência da quebrada.",
+      "Qui dolor accusamus At consequatur rerum est quia assumenda eos Quis necessitatibus qui tenetur magnam. Aut modi tempore ut voluptatem accusantium et voluptatibus optio et enim esse aut dolores nobis et odio voluptate.",
     ],
   },
   {
     id: 3,
-    title: "Como o EQ se mantém?",
+    title: "O que preciso fazer para me tornar um aluno?",
     text: [
-      "O EQ se mantém através do trabalho voluntário de nossa equipe e de doações de pessoas e organizações que acreditam na nossa causa. Somos transparentes com nossas contas e você pode saber mais sobre como nos ajudar na seção de 'Apoio'.",
+      "Qui possimus molestiae ut alias earum ab dolores quasi a officia voluptatem qui amet voluptatem. Ut omnis natus et necessitatibus dolorum qui maxime voluptatum id corporis sapiente id nesciunt necessitatibus et fugiat quisquam ut suscipit voluptatem.",
     ],
   },
   {
     id: 4,
-    title: "Quem pode participar do curso do EQ?",
+    title: "Quero saber mais sobre o voluntariado, o que preciso fazer?",
     text: [
-      "O Escrevendo na Quebrada é voltado a estudantes do Ensino Médio e jovens de baixa renda que sonham com o Ensino Superior.",
+      "Est enim maxime hic natus fugiat et earum repudiandae aut laudantium quia ut dolores dolore vel rerum autem. Qui magni deleniti ut molestiae soluta et commodi neque ut praesentium veniam rem natus neque et laboriosam dolorum nam assumenda rerum.",
     ],
   },
   {
     id: 5,
-    title: "Como faço para me tornar um aluno?",
-    text: [
-      "Para participar, basta acompanhar nossas inscrições abertas no site e redes sociais. Você poderá escolher entre aulas presenciais no Capão Redondo (SP) ou online, acessíveis de todo o Brasil. Depois é só esperar ser chamado e as aulas começarem!",
-    ],
-  },
-  {
-    id: 6,
-    title: "Quando e com que frequência as aulas acontecem?",
-    text: [
-      "As aulas geralmente ocorrem semanalmente, em dias e horários fixos que são divulgados no início de cada turma. O cronograma completo é disponibilizado aos alunos matriculados.",
-    ],
-  },
-  {
-    id: 7,
-    title: "Há correção de redação individualizada?",
-    text: [
-      "Sim! Esse é um dos nossos grandes diferenciais. Nossos alunos têm acesso a correções personalizadas de suas redações, com feedbacks detalhados que os ajudam a identificar pontos de melhoria e aprimorar suas habilidades textuais.",
-    ],
-  },
-  {
-    id: 8,
-    title: "O EQ oferece material de apoio para os estudos?",
-    text: [
-      "Sim, fornecemos materiais didáticos exclusivos, apostilas com teoria e exercícios, modelos de redação e acesso a uma plataforma online com recursos adicionais para complementar o aprendizado.",
-    ],
-  },
-  {
-    id: 9,
     title: "Quais são as principais conquistas do EQ?",
     text: [
-      "Desde sua criação, o Escrevendo na Quebrada já impactou mais de 2 mil estudantes, oferecendo preparação gratuita para o ENEM com foco na redação. Alunos do projeto já conquistaram notas altas, com média de 840 pontos na redação, superando a média nacional. Além disso, o projeto fornece tablets, internet, vale-transporte e apoio psicopedagógico a quem mais precisa, garantindo acesso e permanência.",
-    ],
-  },
-  {
-    id: 10,
-    title: "Onde posso acompanhar as novidades da EQ?",
-    text: [
-      "Fique por dentro de tudo o que acontece na EQ nos seguindo em nossas redes sociais:",
-    ],
-    list: [
-      "Instagram: @escrevendonaquebrada",
-      "Linkedin: Escrevendo na Quebrada",
+      "Aut vero voluptatem aut libero porro aut iure rerum est galisum laboriosam sed doloremque dolorem ut consectetur mollitia. Id doloremque odio et fuga consequatur aut tempore aspernatur aut alias dolorem et optio fuga.",
+      "Aut vero voluptatem aut libero porro aut iure rerum est galisum laboriosam sed doloremque dolorem ut consectetur mollitia. Id doloremque odio et fuga consequatur aut tempore aspernatur aut alias dolorem et optio fuga.",
     ],
   },
 ];
