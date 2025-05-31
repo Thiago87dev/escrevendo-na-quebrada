@@ -15,7 +15,6 @@ const Sobre = () => {
           src="/img/home/sobre/imagem-secao-sobre.png"
           width={650}
           height={650}
-          className="bg-roxo/10 rounded-4xl"
         />
       </div>
         <div className="text-lg md:max-lg:text-xl lg:text-2xl/7">
@@ -44,7 +43,6 @@ const Sobre = () => {
           src="/img/home/sobre/imagem-secao-sobre.png"
           width={650}
           height={650}
-          className="bg-roxo/10 rounded-4xl"
         />
       </div>
     </section>
