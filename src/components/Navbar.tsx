@@ -10,6 +10,28 @@ const Navbar = () => {
   const [activeMenuItem, setActiveMenuItem] = useState("");
   const [activeSandwichMenu, setActiveSandwichMenu] = useState(false);
 
+  useEffect(() => {
+    const sections = document.querySelectorAll("section[id]");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActiveMenuItem(entry.target.id);
+          }
+        }
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.6,
+      }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+    };
+  }, []);
+
   const pathname = usePathname();
 
   const handleToggleMenu = () => {
@@ -35,7 +57,7 @@ const Navbar = () => {
   }, [pathname]);
 
   const menuItens = [
-    { label: "HOME", path: "/" },
+    { label: "HOME", path: "#sobre" },
     // { label: "SOBRE", path: "#sobre" },
     { label: "COMO FUNCIONA", path: "#como_funciona" },
     { label: "SEJA ALUNO", path: "#seja_aluno" },
@@ -92,7 +114,7 @@ const Navbar = () => {
                 <Link
                   href={item.path}
                   className={`${
-                    activeMenuItem === item.label
+                    activeMenuItem === item.path.replace("#", "")
                       ? "bg-roxo w-fit text-white rounded-full px-2 py-1"
                       : "text-white"
                   } hover:bg-roxo hover:text-white hover:rounded-full px-2 py-1`}
@@ -116,7 +138,7 @@ const Navbar = () => {
                 <Link
                   href={item.path}
                   className={`px-4 py-2 ${
-                    activeMenuItem === item.label
+                    activeMenuItem === item.path.replace("#", "")
                       ? "bg-roxo text-white rounded-full "
                       : "text-black"
                   } hover:bg-roxo hover:text-white hover:rounded-full`}

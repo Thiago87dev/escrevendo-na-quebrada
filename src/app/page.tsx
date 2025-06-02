@@ -10,27 +10,27 @@ export default function Home() {
   return (
     <main className="scroll-smooth flex flex-col gap-4 items-center overflow-x-hidden">
       <div className="flex flex-col items-center w-full h-full max-w-[1440px] text-preto1">
-        <div id="sobre">
+        <section id="sobre">
           <Sobre />
-        </div>
-        <div id="como_funciona">
+        </section>
+        <section id="como_funciona">
           <ComoFunciona />
-        </div>
-        <div id="seja_aluno">
+        </section>
+        <section id="seja_aluno">
           <SejaAluno />
-        </div>
-        <div id="seja_voluntario">
+        </section>
+        <section id="seja_voluntario">
           <SejaVoluntario />
-        </div>
-        <div id="nossos_resultados">
+        </section>
+        <section id="nossos_resultados">
           <Resultados />
-        </div>
-        <div id="contato">
+        </section>
+        <section id="contato">
           <Contato />
-        </div>
-        <div id="faq">
+        </section>
+        <section id="faq">
           <Faq />
-        </div>
+        </section>
       </div>
     </main>
   );
