@@ -8,7 +8,7 @@ import Sobre from "@/components/home/sobre/Sobre";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-4 items-center overflow-x-hidden">
+    <main className="scroll-smooth flex flex-col gap-4 items-center overflow-x-hidden">
       <div className="flex flex-col items-center w-full h-full max-w-[1440px] text-preto1">
         <div id="sobre">
           <Sobre />
