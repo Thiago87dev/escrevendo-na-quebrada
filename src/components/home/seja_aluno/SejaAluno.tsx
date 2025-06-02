@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const SejaAluno = () => {
   return (
@@ -21,7 +22,9 @@ const SejaAluno = () => {
             className="w-full max-w-[600px]"
           />
           <div className="flex flex-col gap-5.5 items-center lg:items-stretch lg:text-left">
-            <h2 className="sm:text-[1.6875rem] text-2xl font-bold">Inscrições</h2>
+            <h2 className="sm:text-[1.6875rem] text-2xl font-bold">
+              Inscrições
+            </h2>
             <p className="text-[1.125rem]">
               Acreditamos no poder do conhecimento para mudar vidas. Junte-se a
               nós e comece hoje a trilhar um caminho de novas oportunidades.
@@ -52,7 +55,9 @@ const SejaAluno = () => {
               as informações mais importantes para orientar você nessa jornada.
             </p>
             <div className="w-[16.25rem] h-[2.875rem] ">
-              <Button>saiba mais</Button>
+              <Link href={'#faq'}>
+                <Button>saiba mais</Button>
+              </Link>
             </div>
           </div>
           <Image

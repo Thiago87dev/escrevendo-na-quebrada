@@ -10,13 +10,27 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4 items-center overflow-x-hidden">
       <div className="flex flex-col items-center w-full h-full max-w-[1440px] text-preto1">
-        <Sobre />
-        <ComoFunciona />
-        <SejaAluno />
-        <SejaVoluntario />
-        <Resultados />
-        <Contato />
-        <Faq/>
+        <div id="sobre">
+          <Sobre />
+        </div>
+        <div id="como_funciona">
+          <ComoFunciona />
+        </div>
+        <div id="seja_aluno">
+          <SejaAluno />
+        </div>
+        <div id="seja_voluntario">
+          <SejaVoluntario />
+        </div>
+        <div id="nossos_resultados">
+          <Resultados />
+        </div>
+        <div id="contato">
+          <Contato />
+        </div>
+        <div id="faq">
+          <Faq />
+        </div>
       </div>
     </main>
   );

@@ -36,12 +36,12 @@ const Navbar = () => {
 
   const menuItens = [
     { label: "HOME", path: "/" },
-    { label: "SOBRE", path: "/sobre" },
-    { label: "COMO FUNCIONA", path: "/como_funciona" },
-    { label: "SEJA ALUNO", path: "/seja_aluno" },
-    { label: "SEJA VOLUNTARIO", path: "/seja_voluntario" },
-    { label: "NOSSOS RESULTADOS", path: "/nossos_resultados" },
-    { label: "CONTATO", path: "/contato" },
+    // { label: "SOBRE", path: "#sobre" },
+    { label: "COMO FUNCIONA", path: "#como_funciona" },
+    { label: "SEJA ALUNO", path: "#seja_aluno" },
+    { label: "SEJA VOLUNTARIO", path: "#seja_voluntario" },
+    { label: "NOSSOS RESULTADOS", path: "#nossos_resultados" },
+    { label: "CONTATO", path: "#contato" },
   ];
   return (
     <nav className="px-6 relative z-30">
