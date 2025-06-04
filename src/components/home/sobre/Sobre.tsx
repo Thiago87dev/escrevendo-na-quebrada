@@ -31,7 +31,7 @@ const Sobre = () => {
             que acredita no seu potencial e caminha ao seu lado
           </p>
         </div>
-        <Link href="/sobre" className="md:max-lg:self-center">
+        <Link href="#faq" className="md:max-lg:self-center">
           <Button className="w-full md:max-lg:w-lg lg:w-full text-md md:max-lg:text-lg lg:text-xl shadow-md/80 shadow-preto1 py-3 mt-3">
             Saiba mais sobre o projeto
           </Button>

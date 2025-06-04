@@ -16,3 +16,7 @@
 
   --breakpoint-lg: 1300px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
