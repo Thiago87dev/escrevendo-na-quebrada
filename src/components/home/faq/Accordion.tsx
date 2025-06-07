@@ -10,15 +10,15 @@ const Accordion = () => {
     setActiveId((prevId) => (prevId === id ? null : id));
   };
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 lg:gap-10">
       {listAccordion.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col bg-roxo-escuro text-white py-2 rounded-3xl"
+          className="flex flex-col bg-roxo-escuro text-white py-3 rounded-3xl shadow-md shadow-preto1"
         >
           <div className="flex items-center justify-between gap-2  px-6  ">
             <div></div>
-            <h2 className="text-[1rem] sm:text-[1.5rem]">{item.title}</h2>
+            <h2 className="text-base sm:text-lg">{item.title}</h2>
             {item.id !== activeId ? (
               <FaPlus
                 onClick={() => handleToggle(item.id)}

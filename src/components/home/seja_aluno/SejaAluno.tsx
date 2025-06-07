@@ -6,8 +6,8 @@ const SejaAluno = () => {
     <section className="flex flex-col items-center w-screen min-h-screen">
       <div className="flex flex-col gap-16 items-center w-full py-16 px-6 max-w-[1440px] text-center">
         <div className="flex flex-col gap-2">
-          <h2 className="sm:text-[3.75rem] text-4xl font-bold">Seja Aluno</h2>
-          <p className="sm:text-[1.6875rem] text-xl">
+          <h2 className="text-4xl font-bold">Seja Aluno</h2>
+          <p className="text-xl mt-4">
             Nossos programas são gratuitos e pensados para apoiar você em cada
             etapa do seu desenvolvimento.
           </p>
@@ -30,7 +30,7 @@ const SejaAluno = () => {
               Inscreva-se agora e dê o primeiro passo.
             </p>
             <div className="w-[16.25rem] h-[2.875rem]">
-              <Button>INSCREVA-SE</Button>
+              <Button className="shadow-md/80 shadow-preto1">INSCREVA-SE</Button>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const SejaAluno = () => {
               as informações mais importantes para orientar você nessa jornada.
             </p>
             <div className="w-[16.25rem] h-[2.875rem] ">
-              <Button>saiba mais</Button>
+              <Button className="shadow-md/80 shadow-preto1">saiba mais</Button>
             </div>
           </div>
           <Image
