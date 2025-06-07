@@ -3,10 +3,10 @@ import Accordion from "./Accordion"
 const Faq = () => {
   return (
     <section className="py-10 w-full px-6">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-12">
             <div>
-                <h2 className="text-[3rem] font-bold">Perguntas Frequentes</h2>
-                <p className="text-[1rem]">Dê uma olhada nas dúvidas mais frequentes em nossa comunidade. Caso seu questionamento não tenha sido esclarecido, entre em contato conosco!</p>
+                <h2 className="text-4xl font-bold">Perguntas Frequentes</h2>
+                <p className="text-xl pt-4">Dê uma olhada nas dúvidas mais frequentes em nossa comunidade. Caso seu questionamento não tenha sido esclarecido, entre em contato conosco!</p>
             </div>
             <div>
                 <Accordion/>
