@@ -8,15 +8,29 @@ import Sobre from "@/components/home/sobre/Sobre";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-4 items-center overflow-x-hidden">
+    <main className="scroll-smooth flex flex-col gap-4 items-center overflow-x-hidden">
       <div className="flex flex-col items-center w-full h-full max-w-[1440px] text-preto1">
-        <Sobre />
-        <ComoFunciona />
-        <SejaAluno />
-        <SejaVoluntario />
-        <Resultados />
-        <Contato />
-        <Faq/>
+        <section id="sobre">
+          <Sobre />
+        </section>
+        <section id="como_funciona">
+          <ComoFunciona />
+        </section>
+        <section id="seja_aluno">
+          <SejaAluno />
+        </section>
+        <section id="seja_voluntario">
+          <SejaVoluntario />
+        </section>
+        <section id="nossos_resultados">
+          <Resultados />
+        </section>
+        <section id="contato">
+          <Contato />
+        </section>
+        <section id="faq">
+          <Faq />
+        </section>
       </div>
     </main>
   );

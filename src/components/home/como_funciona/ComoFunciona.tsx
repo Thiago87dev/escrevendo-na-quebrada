@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../../Button";
 import Card from "./Card";
 import { cardComoFuncionaData } from "@/data/data";
@@ -7,7 +8,9 @@ const ComoFunciona = () => {
     <section className="flex flex-col items-center w-screen min-h-screen bg-[#EBEBEB]">
       <div className="flex flex-col gap-16 items-center w-full py-16 px-6 max-w-[1440px] text-center">
         <div className="text-center">
-          <h2 className="text-xl md:text-2xl font-bold mb-5 md:mb-0">Como Funciona</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-5 md:mb-0">
+            Como Funciona
+          </h2>
           <h3 className="text-lg mt-4">
             O Escrevendo na Quebrada promove aulas de escrita e redação com foco
             em vestibulares através de quatro tarefas:
@@ -37,7 +40,11 @@ const ComoFunciona = () => {
             apoiar em cada passo!
           </p>
           <div className="flex justify-center w-full md:w-[710px] h-12 mx-auto mt-16">
-            <Button className="text-base shadow-md/80 shadow-preto1">entenda como funciona</Button>
+            <Link className="w-full" href="#faq">
+              <Button className="text-base shadow-md/80 shadow-preto1">
+                entenda como funciona
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
