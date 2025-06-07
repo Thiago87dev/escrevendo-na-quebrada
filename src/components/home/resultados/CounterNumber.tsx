@@ -8,7 +8,7 @@ interface CounterNumberProps {
   plus?: boolean;
 }
 
-const ConterNumber = ({
+const CounterNumber = ({
   from = 0,
   to,
   duration = 2,
@@ -89,4 +89,4 @@ const ConterNumber = ({
   );
 };
 
-export default ConterNumber;
+export default CounterNumber;
