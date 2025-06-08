@@ -6,6 +6,7 @@ interface CounterNumberProps {
   to: number;
   duration?: number;
   plus?: boolean;
+  percent?: boolean;
 }
 
 const CounterNumber = ({
@@ -13,6 +14,7 @@ const CounterNumber = ({
   to,
   duration = 2,
   plus = false,
+  percent = false,
 }: CounterNumberProps) => {
   const [count, setCount] = useState(from);
   const counterRef = useRef<HTMLSpanElement>(null);
@@ -85,6 +87,7 @@ const CounterNumber = ({
     <>
       <span ref={counterRef}>{formatNumber(count)}</span>
       {countFinished && plus && <span>+</span>}
+      {countFinished && percent && <span>%</span>}
     </>
   );
 };
