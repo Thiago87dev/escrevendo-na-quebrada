@@ -10,11 +10,11 @@ const Accordion = () => {
     setActiveId((prevId) => (prevId === id ? null : id));
   };
   return (
-    <div className="flex flex-col gap-8 lg:gap-10">
+    <div className="flex flex-col md:items-center gap-8 lg:gap-10">
       {listAccordion.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col bg-roxo-escuro text-white py-3 rounded-3xl shadow-md shadow-preto1"
+          className="flex flex-col md:w-4/5 bg-roxo-escuro text-white py-3 rounded-3xl shadow-md shadow-preto1"
         >
           <div className="flex items-center justify-between gap-2  px-6  ">
             <div></div>

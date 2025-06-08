@@ -66,8 +66,8 @@ const Navbar = () => {
     { label: "CONTATO", path: "#contato" },
   ];
   return (
-    <nav className="px-6 relative z-30">
-      <div className="flex gap-5 items-center justify-between mx-auto w-full max-w-[1440px] py-5">
+    <nav id="navbar" className="px-6 relative z-30">
+      <div className="flex gap-5 items-center justify-between mx-auto w-full max-w-[1240px] py-5">
         <div className="flex gap-2">
           <div>
             <Link href={"/"}>
@@ -81,7 +81,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <h3 className="text-[#4E164A] pt-2.5 font-bold text-lg w-[132px] h-[44px]">
+            <h3 className="text-[#4E164A] pt-2.5 font-bold text-base w-[132px] h-[44px]">
               Escrevendo na Quebrada
             </h3>
           </div>
@@ -129,7 +129,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex gap-10">
-          <ul className="flex items-center gap-5 font-semibold text-lg">
+          <ul className="flex items-center gap-5 font-semibold text-base">
             {menuItens.map((item) => (
               <li
                 key={item.label}

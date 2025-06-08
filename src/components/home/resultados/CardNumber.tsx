@@ -27,18 +27,18 @@ const CardNumber = () => {
         <div className="flex flex-col lg:flex-row gap-10 md:gap-20">
           <div className="flex flex-col items-center">
             <h3 className="text-4xl md:text-6xl font-bold">
-              <CounterNumber to={480} />
+              <CounterNumber to={97} percent />
             </h3>
             <p className="text-center text-sm sm:text-[1.125rem] w-[200%]">
-              Texto de exemplo
+              Aprovação dos alunos
             </p>
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-4xl md:text-6xl font-bold">
-              <CounterNumber to={47} plus />
+              <CounterNumber to={5000} plus />
             </h3>
             <p className="text-center text-sm sm:text-[1.125rem] w-[200%]">
-              Texto
+              seguidores
             </p>
           </div>
         </div>
