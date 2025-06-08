@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [showScorllTop, setShowScorllTop] = useState(false);
+
   useEffect(() => {
     const targetSection = document.getElementById("sobre");
 
@@ -24,7 +25,7 @@ export default function Home() {
       {
         root: null,
         rootMargin: "0px",
-        threshold: 0.9,
+        threshold: 0.1,
       }
     );
     observer.observe(targetSection);
