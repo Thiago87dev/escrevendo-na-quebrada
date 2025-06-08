@@ -39,7 +39,7 @@ export default function Home() {
     <main className="relative scroll-smooth flex flex-col gap-4 items-center overflow-x-hidden">
       {showScorllTop && (
         <Link href={"#navbar"}>
-          <div className="fixed right-10 bottom-10 cursor-pointer bg-white rounded-full">
+          <div className="fixed right-10 bottom-10 cursor-pointer bg-white rounded-full z-50">
             <FaArrowCircleUp color="#8c2985" size={35} />
           </div>
         </Link>
