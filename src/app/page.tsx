@@ -24,7 +24,7 @@ export default function Home() {
       {
         root: null,
         rootMargin: "0px",
-        threshold: 0.9,
+        threshold: 0.1,
       }
     );
     observer.observe(targetSection);
