@@ -14,13 +14,15 @@ const Card = ({ className }: CardProps) => {
           O EQ também oferece horas complementares e certificados!
         </h3>
         <p className="text-base/6 lg:text-lg/6">
-          Além de todo o apoio oferecido, o Escrevendo na Quebrada também
-          garante horas complementares e certificados para quem participa — uma
-          oportunidade de aprender, se desenvolver e ainda valorizar seu
-          currículo!
+          O Escrevendo na Quebrada é construído de forma colaborativa por uma
+          rede de voluntários que atuam em 12 áreas diferentes. Há espaço para
+          diferentes perfis, interesses e habilidades, todas as contribuições
+          são fundamentais para que o projeto aconteça.
         </p>
       </div>
-      <Button className="mt-3 py-2 lg:py-3 shadow-md/80 shadow-preto1">Faça parte do EQ</Button>
+      <Button className="mt-3 py-2 lg:py-3 shadow-md/80 shadow-preto1">
+        Faça parte do EQ
+      </Button>
     </article>
   );
 };

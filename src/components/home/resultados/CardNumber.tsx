@@ -9,7 +9,7 @@ const CardNumber = () => {
         <div className="flex flex-col lg:flex-row gap-10 md:gap-20">
           <div className="flex flex-col items-center">
             <h3 className="text-4xl md:text-6xl font-bold">
-              <CounterNumber to={840} />
+              <CounterNumber to={845} />
             </h3>
             <p className="text-center text-sm sm:text-[1.125rem] w-[200%]">
               Média das redações
@@ -27,7 +27,7 @@ const CardNumber = () => {
         <div className="flex flex-col lg:flex-row gap-10 md:gap-20">
           <div className="flex flex-col items-center">
             <h3 className="text-4xl md:text-6xl font-bold">
-              <CounterNumber to={97} percent />
+              <CounterNumber to={95} percent />
             </h3>
             <p className="text-center text-sm sm:text-[1.125rem] w-[200%]">
               Aprovação dos alunos
@@ -35,10 +35,10 @@ const CardNumber = () => {
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-4xl md:text-6xl font-bold">
-              <CounterNumber to={5000} plus />
+              <CounterNumber to={750} plus />
             </h3>
             <p className="text-center text-sm sm:text-[1.125rem] w-[200%]">
-              seguidores
+              Alunos matriculados
             </p>
           </div>
         </div>

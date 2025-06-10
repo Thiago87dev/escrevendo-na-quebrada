@@ -8,10 +8,11 @@ const SejaAluno = () => {
       <div className="flex flex-col gap-16 items-center w-full py-16 px-6 max-w-[1440px] text-center">
         <div className="flex flex-col gap-2">
           <h2 className="text-4xl font-bold">Seja Aluno</h2>
-          <p className="text-xl mt-4">
-            Nossos programas são gratuitos e pensados para apoiar você em cada
-            etapa do seu desenvolvimento.
+          <p className="text-xl mt-4 italic">
+            “A nossa escrevivência não é para adormecer os da casa grande e,
+            sim, para acordá-los de seus sonos injustos.”
           </p>
+          <p className="font-bold text-xl text-right">Conceição Evaristo</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-14.5 items-center">
           <Image
@@ -32,11 +33,11 @@ const SejaAluno = () => {
             <p className="text-[1.125rem]">
               Inscreva-se agora e dê o primeiro passo.
             </p>
-            <div className="w-[16.25rem] h-[2.875rem]">
+            {/* <div className="w-[16.25rem] h-[2.875rem]">
               <Button className="shadow-md/80 shadow-preto1">
                 INSCREVA-SE
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-14.5 items-center">

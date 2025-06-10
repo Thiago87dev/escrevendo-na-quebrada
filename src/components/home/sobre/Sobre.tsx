@@ -18,17 +18,22 @@ const Sobre = () => {
           />
         </div>
         <div className="text-base/7">
-          <p>
-            O Escrevendo na Quebrada é mais do que um <b>cursinho gratuito</b> —
-            é um projeto transformador voltado para jovens que querem mandar bem
-            na redação e construir um futuro com mais oportunidades. Aqui, você
-            encontra acolhimento real, escuta atenta e acompanhamento
-            individualizado, com correções detalhadas que te ajudam a evoluir de
-            verdade.
+          <p className="text-justify">
+            O Escrevendo na Quebrada é mais do que um cursinho gratuito — é um
+            cursinho popular que fortalece jovens periféricos por meio da
+            educação e do acesso à cultura. Acreditamos na escrita como
+            ferramenta de transformação e protagonismo. Por isso, oferecemos um
+            espaço acolhedor, com escuta atenta e acompanhamento
+            individualizado, onde cada jovem é apoiado em seu percurso de
+            aprendizagem e construção de futuro. Somos uma iniciativa sem fins
+            lucrativos, construída de forma colaborativa por voluntários de
+            diversas áreas, comprometidos com a educação pública, o direito à
+            universidade e a democratização do conhecimento.
           </p>
-          <p className="pt-6">
-            <b>Vencedor do prêmio LED em 2025</b>, o EQ faz parte de uma rede
-            que acredita no seu potencial e caminha ao seu lado
+          <p className="pt-6 text-justify">
+            <b>Vencedor do prêmio LED em 2025</b>, o EQ é movido por uma rede
+            que acredita no potencial de cada estudante e trabalha para
+            ampliá-lo por meio da educação e da cultura.
           </p>
         </div>
         <Link href="#faq" className="md:max-lg:self-center">

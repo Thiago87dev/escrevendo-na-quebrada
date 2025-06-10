@@ -21,7 +21,7 @@ const SejaVoluntario = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-evenly items-center gap-8 w-full">
           <div className="text-lg/6 lg:text-xl/6">
-            <h3 className="mb-4">Quais carreiras seguir dentro do EQ?</h3>
+            <h3 className="mb-4">Quais setores seguir dentro do EQ?</h3>
             <ul className="list-disc pl-5">
               {carreiras.map((carreira, index) => (
                 <li key={index} className="mb-4">

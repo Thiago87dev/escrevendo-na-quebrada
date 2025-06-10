@@ -16,7 +16,7 @@ const ContactCard = () => {
     },
     {
       title: "Whatsapp",
-      subTitle: "+55 (11) 99145-9785",
+      subTitle: "+55 (11) 94536-9641",
       icon: <PiWhatsappLogo size={40} fill="#4E164A" />,
     },
   ];
