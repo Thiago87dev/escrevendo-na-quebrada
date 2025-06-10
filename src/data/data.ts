@@ -42,12 +42,16 @@ export const listAccordion = [
     id: 2,
     title: "Como o projeto funciona na prática?",
     text: [
-      "As aulas são gratuitas e acontecem tanto presencialmente quanto online, sempre valorizando as vivências dos estudantes periféricos. Também realizamos:",
+      "As aulas são gratuitas e acontecem tanto presencialmente quanto online, sempre valorizando as experiências e vivências dos estudantes periféricos. Além das aulas, oferecemos:",
     ],
     list: [
-      "Mentorias individuais;",
-      "Atividades culturais;",
-      "Acompanhamento psicopedagógico e orientação de carreira. Nosso diferencial é um modelo pedagógico que acredita na potência da quebrada.",
+      "Correções personalizadas de redação;",
+      "Atividades culturais que conectam os jovens com arte, literatura e cultura popular;",
+      "Acompanhamento psicopedagógico e orientação de carreira, garantindo apoio integral durante a trajetória;",
+      "Auxílio com taxa de vestibular, transporte (vale-transporte), lanche para turmas presenciais, chip com internet e empréstimo de tablet, para garantir o acesso e a permanência de todos.",
+    ],
+    text2: [
+      "Nosso diferencial está em um modelo pedagógico que acredita na força e na potência da quebrada, transformando histórias em oportunidades reais.",
     ],
   },
   {
@@ -61,14 +65,14 @@ export const listAccordion = [
     id: 4,
     title: "Quem pode participar do curso do EQ?",
     text: [
-      "O Escrevendo na Quebrada é voltado a estudantes do Ensino Médio e jovens de baixa renda que sonham com o Ensino Superior.",
+      "O Escrevendo na Quebrada é um projeto aberto a todas as pessoas, sem restrição de idade, que desejam aprimorar suas habilidades de escrita e leitura, com foco especial na preparação para o vestibular. Respeitamos e valorizamos todas as diversidades, oferecendo um espaço acolhedor para quem quer construir novos caminhos por meio da educação.",
     ],
   },
   {
     id: 5,
     title: "Como faço para me tornar um aluno?",
     text: [
-      "Para participar, basta acompanhar nossas inscrições abertas no site e redes sociais. Você poderá escolher entre aulas presenciais no Capão Redondo (SP) ou online, acessíveis de todo o Brasil. Depois é só esperar ser chamado e as aulas começarem!",
+      "Para participar, basta acompanhar nossas inscrições abertas no site e redes sociais. Você poderá escolher entre aulas presenciais no Capão Redondo e no Jardim Ibirapuera, na Zona Sul de São Paulo, ou em São Mateus, na Zona Leste, além da opção online, acessível de todo o Brasil. Depois, é só aguardar a convocação para o início das aulas!",
     ],
   },
   {
@@ -96,7 +100,7 @@ export const listAccordion = [
     id: 9,
     title: "Quais são as principais conquistas do EQ?",
     text: [
-      "Desde sua criação, o Escrevendo na Quebrada já impactou mais de 2 mil estudantes, oferecendo preparação gratuita para o ENEM com foco na redação. Alunos do projeto já conquistaram notas altas, com média de 840 pontos na redação, superando a média nacional. Além disso, o projeto fornece tablets, internet, vale-transporte e apoio psicopedagógico a quem mais precisa, garantindo acesso e permanência.",
+      "Desde sua criação, o Escrevendo na Quebrada já impactou mais de 2 mil estudantes, oferecendo preparação gratuita para o ENEM com foco na redação. Alunos do projeto já conquistaram notas altas, com média de 845 pontos na redação, superando a média nacional, resultando em reconhecimentos como o premio led e nestle. Além disso, o projeto fornece tablets, internet, vale-transporte e apoio psicopedagógico a quem mais precisa, garantindo acesso e permanência.",
     ],
   },
   {

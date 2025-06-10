@@ -7,9 +7,11 @@ const Resultados = () => {
         <div className="flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Nossos Resultados</h2>
           <p className="text-xl lg:w-[46.125rem]">
-            Impacto que transforma! Com dezenas de polos ativos, centenas de
-            aprovações e prêmios conquistados, nosso cursinho popular de
-            redações continua ampliando oportunidades e fortalecendo a educação.
+            Impacto que transforma! Ao longo dos anos, o EQ tem fortalecido o
+            acesso à educação e à cultura para jovens de diferentes territórios.
+            Já são dezenas de turmas formadas, centenas de estudantes aprovados
+            em universidades públicas e prêmios importantes que reconhecem a
+            força e a inovação do nosso trabalho.
           </p>
         </div>
         <div className="mx-auto lg:w-[70rem]">

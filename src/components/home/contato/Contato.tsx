@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import ContactCard from "./ContactCard";
+import Link from "next/link";
 
 const Contato = () => {
   return (
@@ -16,9 +17,15 @@ const Contato = () => {
               qualquer outro assunto! Nosso time está pronto para te receber de
               braços abertos.
             </p>
-            <Button className="max-h-16 max-w-[16rem] rounded-[0.8rem] py-3 shadow-xs/80 shadow-preto1">
-              Vamos conversar!
-            </Button>
+            <Link
+              href="https://wa.me/5511945369641?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20projeto!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="max-h-16 max-w-[16rem] rounded-[0.8rem] py-3 shadow-xs/80 shadow-preto1">
+                Vamos conversar!
+              </Button>
+            </Link>
           </div>
 
           <ContactCard />

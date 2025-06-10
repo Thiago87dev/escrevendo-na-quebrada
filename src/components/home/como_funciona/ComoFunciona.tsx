@@ -36,7 +36,7 @@ const ComoFunciona = () => {
         <div>
           <p className="text-lg text-center lg:w-[976px]">
             Vem conhecer o Escrevendo na Quebrada: um projeto gratuito, com
-            alimentação nas aulas, tablets e acompanhamento psicológico para te
+            alimentação nas aulas, tablets, materiais didáticos, taxa de vestibular e acompanhamento psicológico para te
             apoiar em cada passo!
           </p>
           <div className="flex justify-center w-full md:w-[710px] h-12 mx-auto mt-16">
