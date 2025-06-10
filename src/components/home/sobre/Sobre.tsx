@@ -22,11 +22,8 @@ const Sobre = () => {
             O Escrevendo na Quebrada é mais do que um cursinho gratuito — é um
             cursinho popular que fortalece jovens periféricos por meio da
             educação e do acesso à cultura. Acreditamos na escrita como
-            ferramenta de transformação e protagonismo. Por isso, oferecemos um
-            espaço acolhedor, com escuta atenta e acompanhamento
-            individualizado, onde cada jovem é apoiado em seu percurso de
-            aprendizagem e construção de futuro. Somos uma iniciativa sem fins
-            lucrativos, construída de forma colaborativa por voluntários de
+            ferramenta de transformação e protagonismo. Somos uma iniciativa sem
+            fins lucrativos, construída de forma colaborativa por voluntários de
             diversas áreas, comprometidos com a educação pública, o direito à
             universidade e a democratização do conhecimento.
           </p>
@@ -36,11 +33,22 @@ const Sobre = () => {
             ampliá-lo por meio da educação e da cultura.
           </p>
         </div>
-        <Link href="#faq" className="md:max-lg:self-center">
-          <Button className="w-full md:max-lg:w-lg lg:w-full text-base lg:text-lg shadow-md/80 shadow-preto1 py-3 mt-3">
-            Saiba mais sobre o projeto
-          </Button>
-        </Link>
+        <div className="flex flex-col lg:flex-row gap-2 lg:gap-6">
+          <Link href="#faq" className="md:max-lg:self-center lg:w-1/2">
+            <Button className="w-full md:max-lg:w-lg lg:w-full text-base lg:text-lg shadow-md/80 shadow-preto1 py-3 mt-3">
+              Saiba mais
+            </Button>
+          </Link>
+          <Link className="md:max-lg:self-center lg:w-1/2" href={' https://www.paraquemdoar.com.br/escrevendo-na-quebrada '}>
+            <Button
+              className="w-full md:max-lg:w-lg lg:w-full text-base lg:text-lg shadow-md/80 shadow-preto1 py-3 mt-3"
+              bg="bg-[#10a2c7]"
+              hover="hover:bg-ciano"
+            >
+              faça uma doação
+            </Button>
+          </Link>
+        </div>
       </div>
       <div className="hidden lg:flex">
         <Image

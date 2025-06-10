@@ -1,7 +1,7 @@
 import Card from "./Card";
 
 const carreiras = [
-  "Pedagogia",
+  "Pedagógico",
   "Tecnologia e Design",
   "Recursos Humanos",
   "Captação de Recursos",

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
+import Button from "./Button";
 
 const Navbar = () => {
   const [activeMenuItem, setActiveMenuItem] = useState("");
@@ -67,7 +68,7 @@ const Navbar = () => {
   ];
   return (
     <nav id="navbar" className="px-6 relative z-30">
-      <div className="flex gap-5 items-center justify-between mx-auto w-full max-w-[1240px] py-5">
+      <div className="flex gap-5 items-center justify-between mx-auto w-full max-w-[1440px] py-5">
         <div className="flex gap-2">
           <div>
             <Link href={"/"}>
@@ -126,6 +127,16 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <div className="p-10">
+            <Link
+            target="_blank"
+            href={" https://www.paraquemdoar.com.br/escrevendo-na-quebrada "}
+          >
+            <Button className="rounded-md px-8" bg="bg-[#10a2c7]">
+              DOE
+            </Button>
+          </Link>
+          </div>
         </div>
 
         <div className="hidden lg:flex gap-10">
@@ -148,6 +159,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <Link
+            target="_blank"
+            href={" https://www.paraquemdoar.com.br/escrevendo-na-quebrada "}
+          >
+            <Button className="rounded-md px-8" bg="bg-[#10a2c7]">
+              DOE
+            </Button>
+          </Link>
         </div>
       </div>
     </nav>
