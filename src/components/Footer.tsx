@@ -42,21 +42,34 @@ const Footer = () => {
           <p className="font-medium text-xs md:text-sm">
             &#169; {currentYear} - Todos os direitos reservados a Escrevendo na
             Quebrada. Criado por{" "}
-            <Link href={"https://www.linkedin.com/in/tainaalvesdeoliveira/"}>
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/in/tainaalvesdeoliveira/"}
+            >
               Taina Alves,
-            </Link>
-            <Link href={"https://www.linkedin.com/in/thiago-alves-dev/"}>
+            </Link>{" "}
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/in/thiago-alves-dev/"}
+            >
               Thiago Alves,
             </Link>{" "}
             <Link
-              href={"Fhttps://www.linkedin.com/in/gabryella-maria-milagres/"}
+              target="_blank"
+              href={"https://www.linkedin.com/in/gabryella-maria-milagres/"}
             >
               Gabryella Milan,
             </Link>{" "}
-            <Link href={"https://www.linkedin.com/in/iago-boebel/"}>
-              Iago Boebel
-            </Link>
-            <Link href={"https://www.linkedin.com/in/mauricio-antero/"}>
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/in/iago-boebel/"}
+            >
+              Iago Boebel,
+            </Link>{" "}
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/in/mauricio-antero/"}
+            >
               Mauricio Antero
             </Link>
           </p>
