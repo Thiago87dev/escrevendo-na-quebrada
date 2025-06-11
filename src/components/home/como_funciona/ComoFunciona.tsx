@@ -8,10 +8,10 @@ const ComoFunciona = () => {
     <section className="flex flex-col items-center w-screen min-h-screen bg-[#EBEBEB]">
       <div className="flex flex-col gap-16 items-center w-full py-16 px-6 max-w-[1440px] text-center">
         <div className="text-center">
-          <h2 className="text-xl md:text-2xl font-bold mb-5 md:mb-0">
+          <h2 className="text-lg md:text-lg font-bold mb-5 md:mb-0">
             Como Funciona
           </h2>
-          <h3 className="text-lg mt-4">
+          <h3 className="text-base mt-4">
             O Escrevendo na Quebrada promove aulas de escrita e redação com foco
             em vestibulares através de quatro tarefas:
           </h3>
@@ -34,14 +34,14 @@ const ComoFunciona = () => {
           ))}
         </div>
         <div>
-          <p className="text-lg text-center lg:w-[976px]">
+          <p className="text-base text-center lg:w-[976px]">
             Vem conhecer o Escrevendo na Quebrada: um projeto gratuito, com
             alimentação nas aulas, tablets, materiais didáticos, taxa de vestibular e acompanhamento psicológico para te
             apoiar em cada passo!
           </p>
-          <div className="flex justify-center w-full md:w-[710px] h-12 mx-auto mt-16">
+          <div className="flex justify-center w-full md:w-[710px] mx-auto mt-16">
             <Link className="w-full" href="#faq">
-              <Button className="text-base shadow-md/80 shadow-preto1">
+              <Button className="text-sm p-2 max-w-lg">
                 entenda como funciona
               </Button>
             </Link>
