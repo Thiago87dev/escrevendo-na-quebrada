@@ -10,22 +10,22 @@ const Accordion = () => {
     setActiveId((prevId) => (prevId === id ? null : id));
   };
   return (
-    <div className="flex flex-col md:items-center gap-8 lg:gap-10">
+    <div className="flex flex-col md:items-center gap-6 lg:gap-8">
       {listAccordion.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col md:w-4/5 bg-roxo-escuro text-white py-3 rounded-3xl shadow-md shadow-preto1"
+          className="flex flex-col md:w-4/5 bg-roxo-escuro text-white py-2 rounded-3xl shadow-md shadow-preto1"
         >
           <div
-            className="flex items-center cursor-pointer justify-between gap-2  px-6  "
+            className="flex items-center cursor-pointer justify-between gap-2 px-6"
             onClick={() => handleToggle(item.id)}
           >
             <div></div>
-            <h2 className="text-base sm:text-lg">{item.title}</h2>
+            <h2 className="text-sm md:text-base">{item.title}</h2>
             {item.id !== activeId ? (
-              <FaPlus className="cursor-pointer" size={25} />
+              <FaPlus className="cursor-pointer" size={20} />
             ) : (
-              <FaMinus className="cursor-pointer" size={25} />
+              <FaMinus className="cursor-pointer" size={20} />
             )}
           </div>
           <div
@@ -36,7 +36,7 @@ const Accordion = () => {
             <hr className="border-white" />
             <div className="pt-4">
               {item.text.map((item, index) => (
-                <p className="py-2" key={index}>
+                <p className="py-2 text-sm md:text-base" key={index}>
                   {item}
                 </p>
               ))}

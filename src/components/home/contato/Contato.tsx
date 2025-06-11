@@ -8,8 +8,8 @@ const Contato = () => {
       <div className="flex flex-col gap-12 lg:gap-40 justify-center items-center max-w-[1440px] py-30 md:py-50 px-6">
         <div className="flex flex-col items-center lg:flex-row-reverse gap-12 lg:gap-20">
           <div className="flex flex-col gap-4 text-preto1 w-full max-w-lg">
-            <h2 className="text-preto1/70 text-2xl">Contate-nos</h2>
-            <h3 className="text-4xl font-bold">
+            <h2 className="text-preto1/70 text-xl">Contate-nos</h2>
+            <h3 className="text-2xl font-bold">
               Dúvidas? Entre em contato com nossa equipe!
             </h3>
             <p className="text-md">
@@ -22,7 +22,7 @@ const Contato = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="max-h-16 max-w-[16rem] rounded-[0.8rem] py-3 shadow-xs/80 shadow-preto1">
+              <Button className="max-h-16 max-w-[16rem] rounded-[0.8rem] py-3 shadow-xs/80 shadow-preto1 text-sm">
                 Vamos conversar!
               </Button>
             </Link>
