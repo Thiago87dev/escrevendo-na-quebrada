@@ -36,7 +36,7 @@ const Accordion = () => {
             <hr className="border-white" />
             <div className="pt-4">
               {item.text.map((item, index) => (
-                <p className="py-2" key={index}>
+                <p className="py-2 text-sm md:text-base" key={index}>
                   {item}
                 </p>
               ))}
