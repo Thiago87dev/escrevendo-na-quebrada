@@ -36,7 +36,7 @@ const Footer = () => {
             height={88}
             className="border-2 border-preto1/75 rounded-3xl mr-3"
           />
-          <p className="font-medium text-sm md:text-base">
+          <p className="font-medium text-xs md:text-sm">
             &#169; {currentYear} - Todos os direitos reservados a Escrevendo na
             Quebrada. Criado por Taina Alves, Thiago Alves, Gabryella Milan,
             Mauricio Antero
