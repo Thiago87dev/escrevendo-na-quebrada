@@ -4,23 +4,26 @@ import {
   PiFacebookLogoBold,
   PiInstagramLogoBold,
   PiLinkedinLogoBold,
-  PiTiktokLogoBold,
 } from "react-icons/pi";
 
 const currentYear = new Date().getFullYear();
 
 const socialMediaIcons = [
-  { id: "tiktok", icon: <PiTiktokLogoBold size={26} />, href: "" },
-  { id: "facebook", icon: <PiFacebookLogoBold size={26} />, href: "" },
+  {
+    id: "instagram",
+    icon: <PiInstagramLogoBold size={26} />,
+    href: "https://www.instagram.com/escrevendonaquebrada/",
+  },
+
   {
     id: "linkedin",
     icon: <PiLinkedinLogoBold size={26} />,
     href: "https://www.linkedin.com/company/escrevendonaquebrada/",
   },
   {
-    id: "instagram",
-    icon: <PiInstagramLogoBold size={26} />,
-    href: "https://www.instagram.com/escrevendonaquebrada/",
+    id: "facebook",
+    icon: <PiFacebookLogoBold size={26} />,
+    href: "https://www.facebook.com/Escrevendoquebrada",
   },
 ];
 
@@ -38,8 +41,24 @@ const Footer = () => {
           />
           <p className="font-medium text-xs md:text-sm">
             &#169; {currentYear} - Todos os direitos reservados a Escrevendo na
-            Quebrada. Criado por Taina Alves, Thiago Alves, Gabryella Milan,
-            Mauricio Antero
+            Quebrada. Criado por{" "}
+            <Link href={"https://www.linkedin.com/in/tainaalvesdeoliveira/"}>
+              Taina Alves,
+            </Link>
+            <Link href={"https://www.linkedin.com/in/thiago-alves-dev/"}>
+              Thiago Alves,
+            </Link>{" "}
+            <Link
+              href={"Fhttps://www.linkedin.com/in/gabryella-maria-milagres/"}
+            >
+              Gabryella Milan,
+            </Link>{" "}
+            <Link href={"https://www.linkedin.com/in/iago-boebel/"}>
+              Iago Boebel
+            </Link>
+            <Link href={"https://www.linkedin.com/in/mauricio-antero/"}>
+              Mauricio Antero
+            </Link>
           </p>
         </div>
 
