@@ -11,18 +11,18 @@ const currentYear = new Date().getFullYear();
 const socialMediaIcons = [
   {
     id: "instagram",
-    icon: <PiInstagramLogoBold size={26} />,
+    icon: <PiInstagramLogoBold size={37} />,
     href: "https://www.instagram.com/escrevendonaquebrada/",
   },
 
   {
     id: "linkedin",
-    icon: <PiLinkedinLogoBold size={26} />,
+    icon: <PiLinkedinLogoBold size={37} />,
     href: "https://www.linkedin.com/company/escrevendonaquebrada/",
   },
   {
     id: "facebook",
-    icon: <PiFacebookLogoBold size={26} />,
+    icon: <PiFacebookLogoBold size={37} />,
     href: "https://www.facebook.com/Escrevendoquebrada",
   },
 ];
@@ -75,9 +75,9 @@ const Footer = () => {
           </p>
         </div>
 
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 pr-8">
           {socialMediaIcons.map((item) => (
-            <li key={item.id} className="cursor-pointer hover:opacity-75">
+            <li key={item.id} className="cursor-pointer hover:opacity-75 hover:scale-110">
               <Link href={item.href} target="_blank">
                 {item.icon}
               </Link>
